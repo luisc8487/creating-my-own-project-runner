@@ -10,19 +10,19 @@ This project deomonstrates how to create an environment where a program runs con
 
 2. CLI Tool:
 
-- Built with **Caporal** to provide an easy-to-use command line interface.
+    - Built with **Caporal** to provide an easy-to-use command line interface.
 
 3. Process Execution:
 
-- Utilizes **Child_process** to execute programs dynamically as files are updated.
+    - Utilizes **Child_process** to execute programs dynamically as files are updated.
 
 4. Styled Interface:
 
-- Employs Chalk (v4.1.10) for styling and enhancing the visual appeal of the command line output.
+    - Employs Chalk (v4.1.10) for styling and enhancing the visual appeal of the command line output.
 
 5. Continuous Execution:
 
-- Provides a development environment where the porgams runs continuously without the need for manual intervention, ensuring a streamlined workflow.
+    - Provides a development environment where the porgams runs continuously without the need for manual intervention, ensuring a streamlined workflow.
 
 ## Dependencies
 
