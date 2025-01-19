@@ -6,7 +6,7 @@ This project deomonstrates how to create an environment where a program runs con
 
 1. File Change Detection:
 
-- Uses **Chokidar** to monitor changes in files and automatically execute the program when changes are detected.
+    - Uses **Chokidar** to monitor changes in files and automatically execute the program when changes are detected.
 
 2. CLI Tool:
 
