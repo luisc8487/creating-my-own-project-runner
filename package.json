@@ -20,5 +20,10 @@
   "homepage": "https://github.com/luisc8487/creating-my-own-project-runner#readme",
   "bin": {
     "watchit": "index.js"
+  },
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chokidar": "^4.0.3",
+    "lodash.debounce": "^4.0.8"
   }
 }
