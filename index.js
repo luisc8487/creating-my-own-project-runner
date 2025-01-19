@@ -4,6 +4,7 @@ const chokidar = require("chokidar");
 const program = require("caporal");
 const fs = require("fs");
 const {spawn} = require("child_process");
+const chalk = require("chalk");
 
 program
   .version("0.0.1")
@@ -16,8 +17,13 @@ program
       throw new Error(`File ${name} does not exist`);
     }
 
+    let proc;
     const start = debounce(() => {
-      spawn("node", [name], {stdio: "inherit"});
+      if (proc) {
+        proc.kill();
+      }
+      console.log(chalk.green.bold(">>>>>>>Starting process..."));
+      proc = spawn("node", [name], {stdio: "inherit"});
     }, 100);
 
     chokidar
